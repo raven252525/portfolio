@@ -9,6 +9,19 @@ html, body {
 }
 
 @layer utilities {
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .animate-blink {
+    animation: blink 0.7s step-end infinite;
+  }
+
   @keyframes loading {
     0% {
       transform:  translateX(-100%);
@@ -19,6 +32,29 @@ html, body {
   }
 
   .animate-loading-bar {
-    animation: loading 0.8s ease infinite;
+    animation: loading 0.7s ease infinite;
   }
+  
+  @keyframes radiate {
+    0%, 100% {
+      text-shadow: 0 0 10px rgba(0, 255, 255, 0.8),
+                   0 0 20px rgba(0, 255, 255, 0.6),
+                   0 0 30px rgba(0, 255, 255, 0.4);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(0, 255, 255, 0.9),
+                   0 0 40px rgba(0, 255, 255, 0.7),
+                   0 0 60px rgba(0, 255, 255, 0.5);
+    }
+  }
+
+  @layer utilities {
+    .hover\:animate-glow:hover {
+      animation: radiate 1.5s infinite ease-in-out;
+    }
+  }
+  
 }
+
+    
+ 
