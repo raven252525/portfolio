@@ -15,10 +15,10 @@ export const Projects = () => {
                         <p className="text-gray-400 mb-4"> A Machine Learning Image Classification project, using Computer Vision techniques and methodologies for 
                         leaf analysis and prediction, achieving 98.26% accuracy in determining disease progression in queries of the final model</p>
                         <div>
-                            {["Colab", "Pandas", "Pytorch", "Pillows", "OpenCV", "Numpy"].map((skill, key) => (
-                                <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full
+                            {["Colab", "Pandas", "Pytorch", "Pillows", "OpenCV", "Numpy", "Matplotlib"].map((skill, key) => (
+                                <span key={key} className=" mx-1 my-1 bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full
                                     text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] 
-                                    transition">
+                                    transition flex md:inline-block">
                                     {skill}
                                 </span>
                             ))}
@@ -39,7 +39,7 @@ export const Projects = () => {
                             {[""].map((skill, key) => (
                                 <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full
                                     text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] 
-                                    transition">
+                                    transition flex md:inline-block mx-1 my-1">
                                     {skill}
                                 </span>
                             ))}
@@ -60,7 +60,7 @@ export const Projects = () => {
                             {[""].map((skill, key) => (
                                 <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full
                                     text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] 
-                                    transition">
+                                    transition md:inline-block mx-1 my-1">
                                     {skill}
                                 </span>
                             ))}
@@ -81,7 +81,7 @@ export const Projects = () => {
                             {[""].map((skill, key) => (
                                 <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full
                                     text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] 
-                                    transition">
+                                    transition md:inline-block mx-1 my-1">
                                     {skill}
                                 </span>
                             ))}

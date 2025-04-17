@@ -13,9 +13,8 @@ export const Home = () => {
                     </h1>
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                        BREIF DESCRIPTION OF WHO I AM BREIF DESCRIPTION OF WHO I AM BREIF DESCRIPTION OF WHO I AM
-                        BREIF DESCRIPTION OF WHO I AM BREIF DESCRIPTION OF WHO I AM BREIF DESCRIPTION OF WHO I AM
-                        BREIF DESCRIPTION OF WHO I AM BREIF DESCRIPTION OF WHO I AM BREIF DESCRIPTION OF WHO I AM
+                        A results driven professional, with a love for solving, creating, shipping detailed and 
+                        passionate solutions.
                     </p>
 
                     <div className="flex justify-center space-x-4">
