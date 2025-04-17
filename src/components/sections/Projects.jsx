@@ -23,9 +23,75 @@ export const Projects = () => {
 
                     <div className="flex justify-between items-center my-4">
                         <a className="text-blue-400 hover:text-blue-300 transition-colors"
-                         href="https://docs.google.com/presentation/d/e/2PACX-1vT5QlX7PazH0LFaT3KgAp1JVM1JHCM_1SMHoNaTTMrleer7anRScCvhbsbpYTHOv-_WcVe0Q4z14rwQ/pub?start=true&loop=false&delayms=3000">View Project →</a>
+                         href="https://docs.google.com/presentation/d/e/2PACX-1vT5QlX7PazH0LFaT3KgAp1JVM1JHCM_1SMHoNaTTMrleer7anRScCvhbsbpYTHOv-_WcVe0Q4z14rwQ/pub?start=true&loop=false&delayms=3000"
+                         target="_blank">View Project →</a>
                     </div>
                 </div>
+
+                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
+                hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+                    <h3 className="text-xl font-bold mb-2"> Empty</h3>
+                    <p className="text-gray-400 mb-4"> Empty Desc</p>
+                    <div>
+                        {[""].map((skill, key) => (
+                            <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full
+                                 text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] 
+                                 transition">
+                                {skill}
+                            </span>
+                        ))}
+                    </div>
+
+                    <div className="flex justify-between items-center my-4">
+                        <a className="text-blue-400 hover:text-blue-300 transition-colors"
+                         href=""
+                         target="_blank">View Project →</a>
+                    </div>
+                </div>
+
+                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
+                hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+                    <h3 className="text-xl font-bold mb-2"> Empty</h3>
+                    <p className="text-gray-400 mb-4"> Empty Desc</p>
+                    <div>
+                        {[""].map((skill, key) => (
+                            <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full
+                                 text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] 
+                                 transition">
+                                {skill}
+                            </span>
+                        ))}
+                    </div>
+
+                    <div className="flex justify-between items-center my-4">
+                        <a className="text-blue-400 hover:text-blue-300 transition-colors"
+                         href=""
+                         target="_blank">View Project →</a>
+                    </div>
+                </div>
+
+                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
+                hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+                    <h3 className="text-xl font-bold mb-2"> Empty</h3>
+                    <p className="text-gray-400 mb-4"> Empty Desc</p>
+                    <div>
+                        {[""].map((skill, key) => (
+                            <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full
+                                 text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] 
+                                 transition">
+                                {skill}
+                            </span>
+                        ))}
+                    </div>
+
+                    <div className="flex justify-between items-center my-4">
+                        <a className="text-blue-400 hover:text-blue-300 transition-colors"
+                         href=""
+                         target="_blank">View Project →</a>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </section>
