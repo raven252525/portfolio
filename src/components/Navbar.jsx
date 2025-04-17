@@ -15,8 +15,9 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                     Max<span className="text-blue-500">/Yurkovsky</span>{" "}
                 </a>
 
-                <div className=" select-none w-7 h-5 relative cursor-pointer z-40 md:hidden  hover:text-blue-500 transition-colors" 
-                onClick={() => setMenuOpen((prev => !prev))}>
+                <div className={` select-none w-7 h-5 relative cursor-pointer z-40 md:hidden  hover:text-blue-500 transition-colors `
+                    + `${menuOpen ? "opacity-0" : ""}`} 
+                onClick={() => setMenuOpen((prev => !prev))} >
                     &#9776;
                 </div>
 
