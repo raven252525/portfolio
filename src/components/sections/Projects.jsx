@@ -10,7 +10,7 @@ export const Projects = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
-                    hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
                         <h3 className="text-xl font-bold mb-2"> Plant Identification ML Model</h3>
                         <p className="text-gray-400 mb-4"> A Machine Learning Image Classification project, using Computer Vision techniques and methodologies for 
                         leaf analysis and prediction, achieving 98.26% accuracy in determining disease progression in queries of the final model</p>
@@ -32,7 +32,7 @@ export const Projects = () => {
                     </div>
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
-                    hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
                         <h3 className="text-xl font-bold mb-2"> Empty</h3>
                         <p className="text-gray-400 mb-4"> Empty Desc</p>
                         <div>
@@ -53,7 +53,7 @@ export const Projects = () => {
                     </div>
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
-                    hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
                         <h3 className="text-xl font-bold mb-2"> Empty</h3>
                         <p className="text-gray-400 mb-4"> Empty Desc</p>
                         <div>
@@ -74,7 +74,7 @@ export const Projects = () => {
                     </div>
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
-                    hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
                         <h3 className="text-xl font-bold mb-2"> Empty</h3>
                         <p className="text-gray-400 mb-4"> Empty Desc</p>
                         <div>
