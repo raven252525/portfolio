@@ -65,8 +65,8 @@ export const About = () => {
                         </div>
                     </div>
                 </div>
-
-                <div className="grid grid-cols-1 md:grid-rows-2 gap-6">
+                
+                <div className="mb-6">
                     <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
                             <h3 className="text-2xl font-bold mb-4"> Education</h3>
                             <ul className="list-disc list-inside text-gray-300 space-y-2"> 
@@ -79,7 +79,7 @@ export const About = () => {
                                         <span key={key} className="flex flex-col m-3  hover:text-blue-500 transition-colors">
                                             {course == relevantCoursework[relevantCoursework.length - 1] 
                                             ? course
-                                            : `${course}, `}
+                                            : `${course} `}
                                         </span>
                                         ))}
                                     </span>
@@ -87,6 +87,9 @@ export const About = () => {
                             </ul>
                     </div>
 
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-rows-2 gap-6">
                     <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                             <div className="flex justify-between">
                                 <h3 className="text-xl font-bold mb-4"> Experience</h3> <h2 className="text-gray-400 hover:text-blue-500 transition"> -my professional journey</h2>
